@@ -11,7 +11,7 @@ public class Database {
     public int createPlayer(Player player){
         int returnCode = -1;
 
-        returnCode = players.add(player) ? 1 : -1;
+        returnCode = players.add(player)     ? 1 : -1;
 
         return returnCode;
     }

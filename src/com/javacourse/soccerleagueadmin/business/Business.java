@@ -6,7 +6,7 @@ import com.javacourse.soccerleagueadmin.persistence.Database;
 public class Business {
     private Database database = new Database();
     public boolean savePlayer(Player player){
-        boolean retorno = false;
+        boolean isSaved = false;
 
         int idReturn = -1;
 
@@ -14,9 +14,9 @@ public class Business {
             idReturn = database.createPlayer(player);
         }
 
-        retorno = idReturn > 0;
+        isSaved = idReturn > 0;
 
-        return retorno;
+        return isSaved;
     }
 
     private boolean validatePlayer(Player player){
