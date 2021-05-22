@@ -1,10 +1,10 @@
 package com.javacourse.soccerleagueadmin.dto;
 
 public class Player {
-	Integer id;
-	String name;
-	String position;
-	int shirtNumber;
+	private Integer id;
+	private String name;
+	private String position;
+	private int shirtNumber;
 
 	public Integer getId() {
 		return id;
