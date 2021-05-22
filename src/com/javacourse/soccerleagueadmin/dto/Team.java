@@ -1,6 +1,6 @@
 package com.javacourse.soccerleagueadmin.dto;
 
-public class Player {
-    Integer id;
+public class Team {
+    Integer code;
     String name;
 }
