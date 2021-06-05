@@ -1,6 +1,6 @@
 package com.javacourse.soccerleagueadmin.dto;
 
-public class DTO {
+public abstract class DTO {
     private Integer id;
     private String name;
 
